@@ -1,0 +1,6 @@
+{
+    "name": "nerdmeeting/aws-elastic-beanstalk-cli-setup",
+    "description": "Fork of github.com/aws/aws-elastic-beanstalk-cli-setup",
+    "type": "library",
+    "require": {}
+}
