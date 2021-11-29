@@ -2,5 +2,10 @@
   "name": "nerdmeeting/aws-elastic-beanstalk-cli-setup",
   "description": "Fork of github.com/aws/aws-elastic-beanstalk-cli-setup",
   "type": "library",
-  "require": {}
+  "require": {},
+  "scripts": {
+    "post-install-cmd": [
+      "PYTHON_VERSION=2.7.13 python ./scripts/bundled_installer"
+    ]
+  }
 }
