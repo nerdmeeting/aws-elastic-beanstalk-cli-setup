@@ -5,7 +5,10 @@
   "require": {},
   "scripts": {
     "post-install-cmd": [
-      "PYTHON_VERSION=2.7.13 python ./scripts/bundled_installer"
+      "composer run install-eb-cli"
+    ],
+    "install-eb-cli": [
+      "PYTHON_VERSION=2.7.13 ./scripts/bundled_installer"
     ]
   }
 }
